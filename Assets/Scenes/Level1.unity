@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 68873018}
   - component: {fileID: 68873017}
   - component: {fileID: 68873016}
+  - component: {fileID: 68873020}
   m_Layer: 0
   m_Name: TeleportPad
   m_TagString: Untagged
@@ -399,6 +400,21 @@ Transform:
   m_Father: {fileID: 1425964340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68873020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68873015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d929de4edc3fbe4c995a2604526accb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gem: {fileID: 468184293}
+  background: {fileID: 1875767817}
+  teleportDestination: Level1_A
 --- !u!4 &79126317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
@@ -15456,6 +15472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa25c83211509e47b688a92d9ed3943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleporterDust: {fileID: 1639722400}
 --- !u!1001 &573553711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26728,7 +26745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621597827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.7258625, y: 7.5038776, z: -42.2}
+  m_LocalPosition: {x: 13.565554, y: 7.5038776, z: -42.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
