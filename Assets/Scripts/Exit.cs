@@ -8,9 +8,11 @@ public class Exit : MonoBehaviour
     public GameObject background;
     public string teleportDestination;
 
-
     private void OnTriggerEnter(Collider other)
     {
-        background.GetComponent<GameManager>().TeleportOpen(teleportDestination);
+        if (!gem.activeInHierarchy)
+        {
+            background.GetComponent<GameManager>().TeleportOpen(teleportDestination);
+        }
     }
 }
